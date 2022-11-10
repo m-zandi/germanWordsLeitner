@@ -1,0 +1,135 @@
+☐ entering
+☐ address default telegram all voices https://t.me/guew_resource/
+
+✔ add suggestion list for search @done(20-08-25 02:55)
+✔ back next all word @done(20-08-25 06:36)
+    ✔ list of all words @done(20-08-25 06:36)
+    ✔ number of words from one to last @done(20-08-25 06:36)
+    ✔ show the number of word when i click on it @done(20-08-25 06:36)
+    ✔ show word on treeview as well @done(20-08-25 06:36)
+☐ add list box for bookName
+
+
+
+
+✔ انتقال تمامی پلن روی یو ای پایتون @done(20-08-22 05:13)
+    ✔ حذف اکسل از سری ذخیره و جستجو و کارکردن فقط با دیتابیس منگو @done(20-08-14 03:47)
+
+
+    ☐ کد کردن یو آی بدست آمده در ایکس دی
+        ☐ search or simple search
+            ☐ کد کردن بک 
+                ✔ edit word ...Editing.editWord(.. @done(20-08-14 03:50)
+                    ✔ تغییرات واژه اعمال در مینیگ @done(20-08-18 07:23)
+                    ✔ تغییر واژه اعمال در بوک @done(20-08-18 07:23)
+                ✔ delete word ... Deleting.deleteWord(.. @done(20-08-14 03:50)
+                ✔ new meaning .... Entering.enterNewChildMeaning(.. @done(20-08-15 18:44)
+
+                ✔ edit meaning ... Editing.editMeaning(.. @done(20-08-17 23:44)
+                    ✔ search.getMeaningValues(meaningId) @done(20-08-19 02:15)
+                ✔ delete meaning ... Deleting.deleteMeaning(meaningId @done(20-08-18 00:48)
+                ✔ new book ... Entering.enterNewBook(meaningId @done(20-08-18 03:22)
+
+                ✔ edit book .... Editing.editBook(... @done(20-08-18 14:46)
+                    ✔ search book  search.getBookValues(bookId) @done(20-08-19 02:15)
+                ✔ delete book ... Deleting.deleteBook(bookId) @done(20-08-18 03:23)
+            ☐ کدکردن تی کی
+                ✔ ادیت ورد @done(20-08-16 05:22)
+                    ☐ those value "" like should become a None
+                    ✔ determine edited or not if not, give a warning else updating @done(20-08-21 05:25)
+                ✔ دلیت ورد @done(20-08-16 05:22)
+                ✔ نیو مینیگ @done(20-08-17 23:54)
+                    ✔ Text replace \n @done(20-08-20 06:21)
+                    ☐ those value "" like should become a None
+
+                ☐ ادیت مینینگ
+                    ☐ those value "" like should become a None
+                    ✔ determine edited or not if not, give a warning else updating @done(20-08-20 06:18)
+                    ✔ Text replace \n @done(20-08-20 06:18)
+                ✔ دلیت مینینگ @done(20-08-20 06:21)
+                ✔ نیو بوک @done(20-08-20 06:22)
+
+                ☐ ادیت بوک
+                    ☐ those value "" like should become a None
+                    ✔ determine edited or not if not, give a warning else updating @done(20-08-21 05:25)
+
+                ✔ دلیت بوک @done(20-08-21 05:25)
+
+
+
+        ☐ ساخت یو آی با ایکس دی
+        ☐ برای تمامی کالکشن ها
+            ☐ امکان ایمپورت
+                ☐ جیسون
+                ☐ سی اس وی
+            ☐ امکان اکسپرت
+                ☐ جیسون
+                ☐ سی اس وی
+        ☐ در سرچ امکان ساجسشن لیست از موجودی ها در تمامی فیلدهای جستجو
+
+✔ finding excell file @done(20-07-08 13:14)
+☐ enter word to db if db hasn't
+    ✔ sheet words mesure @done(20-07-08 13:15)
+    ✔ connectiong to mongo @done(20-07-08 16:58)
+    ✔ گرفتن واژه هایی که در اکسل هست و در منگو نیست @done(20-07-09 12:22)
+    ✔ ورود واژه به منگو @done(20-07-10 06:29)
+    ☐ ذخیره id word هنگام ذخیره
+
+✔ enter to db word @done(20-07-11 03:06)
+☐ enter meaning to word
+    ✔ save meaning id in excell @done(20-07-11 17:25)
+    ☐ گرقتن تمامی جزییات معنی ها از اکسل به صورت پرشده
+    ☐ گرقتن تمامی جزییات معنی ها از اکسل به صورت پرشده و پر نشده
+    ✔ add meaning id to word collection @done(20-07-22 12:27)
+    ✔ گرفتن معنی با ابجکت ایدی یا  ایدی خالی هر دو چک شود @done(20-07-12 03:33)
+✔ enter book details @done(20-07-17 22:48)
+    ✔ اضافه کردن مینینگ ایدی به کتاب @done(20-07-17 22:48)
+✔ enter voices in db @done(20-07-12 21:12)
+☐ updating any field or all field based on word
+    ☐ word details update
+        ✔ get word values from mongo @done(20-07-21 12:19)
+            ☐ meningid output as well
+        ✔ get word values from excell Finding.getWordsFromExcelAllContent(wordVal) @done(20-07-17 21:05)
+            ☐ meningid output as well
+        ✔ update them in mongodb @done(20-07-17 22:47)
+    ✔ meaning details @done(20-07-22 13:01)
+        ✔ get meaning id from execl getMeaningIdFromExcel(self,word) @done(20-07-22 12:34)
+        ✔ get meaning values from mongo @done(20-07-22 10:32)
+        ✔ get meaning values from excell Finding.getMeaningWordAllDetails() @done(20-07-17 21:04)
+                ☐ مینینگ ایدی می بایست برای ورودی قطعن ایدی را بگیرد نه آپشنال
+        ✔ update them in mongodb Update.updateMeaningDetailsMongo @done(20-07-18 00:27)
+    ✔ book details @done(20-07-22 13:01)
+        ✔ get book values from mongo  Finding.getBookAllcontentFromMongo @done(20-07-22 13:00)
+        ✔ get book values from excell Finding.getBookAllcontent @done(20-07-17 20:31) 
+        ✔ update them in mongodb Update.updateBookDetailsMongo @done(20-07-17 20:29)
+☐ execute 
+    ☐ update values from excel in mongo
+        ✔ if values is equal doesn't need update @done(20-07-30 01:27)
+        ✔ how adding second third ... meaning to word in wordCollection @done(20-07-30 01:27)
+        ☐ apply 3 method update changes in update execute executeUpdate()
+        ✔ add word details to meaningCollection @done(20-07-30 01:26)
+    ☐ enter
+        ☐ enter word
+            ☐ if we have word must be updated
+        ☐ enter meaning
+            ☐ in finding must get wordType and article as well getMeaningWordFromExcelAllDetails()
+            ☐ add wordDetails to method enterMeaningWordAllContents
+        ☐ enter book
+            ☐ if we have word must be updated
+       
+✔ current meaningids in word collection update @done(20-07-28 16:44)
+☐ transform output databse to csv as well
+☐ test of each field in excell to be standard
+        add id 
+file excell jتعییر یافته فقط یک باز ذخیره شود
+animation
+✔ delete the allVoice from meaning collection @done(20-07-18 00:31)
+☐ with up and load transparency number card which subtracted goes down
+✔ WordId and word from book و نگه داشتن مینینگ ایدی @done(20-07-17 19:19)
+    ✔ تبدیل به meaningId @done(20-07-17 19:19)
+✔ delet bookId and wordId from meaning @done(20-07-17 19:22)
+☐ رمزگذاری پسوردها
+☐ refactor ... transform multi output variable to array
+
+☐ طراحی یک واسط کاربری جهت فرمانها  
+    ☐ تبدیل به فایل exe
